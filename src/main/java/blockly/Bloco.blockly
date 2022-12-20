@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="JAVA" bpmnAble="false" formTarget="" library="false" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false" swagger="false">
+  <metadata scale="1" scrollx="357.0000000000002" scrolly="-122.99999999999989" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+  </block>
+</blockly>

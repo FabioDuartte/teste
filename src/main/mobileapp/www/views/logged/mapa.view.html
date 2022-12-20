@@ -1,0 +1,19 @@
+<ion-view class="pane" role="region">
+  <ion-header-bar role="heading" class="crn-ion-header-bar bar bar-positive" xattr-theme="bar-positive" data-component="crn-ion-header-bar" id="crn-ion-header-bar-home-logged">
+    <div class="buttons buttons-left header-item" data-component="crn-header-button" id="crn-header-button-1">
+      <button aria-labelledby="left_navicon_sr" class="button button-clear component-holder" menu-toggle="left">
+        <i class="icon ion-navicon"></i>
+        <span id="left_navicon_sr" class="sr-only">{{'Accessibility.Button.Aria.Label.NavIcon' | translate}}</span>
+      </button>
+    </div>
+    <h1 class="title" align-title="text-align: center;" style="text-align: center;">{{'Home.view.Home' | translate }}</h1>
+    <div aria-labelledby="right_navicon_sr" class="buttons buttons-right header-item" data-component="crn-header-button" id="crn-header-button-2">
+      <button class="button button-clear component-holder" menu-toggle="right">
+        <i class="icon ion-navicon"></i>
+        <span id="right_navicon_sr" class="sr-only">{{'Accessibility.Button.Aria.Label.NavIcon' | translate}}</span>
+      </button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="scroll-content has-header" data-component="crn-ion-content">
+  <div class="component-holder ng-scope" data-component="crn-google-maps" id="crn-google-maps-284807" ng-init="cronapi.client('js.blockly.Maps.maps').names().run()"><div id="map6124" token="AIzaSyDWAbaYFvbJiIZLawyWxrI5Z4VRkZWpGqc" style="height: 400px;" class=""></div></div><button class="button button-block button-positive button-medium filled" type="submit" xattr-fullsize="button-block" xattr-theme="button-positive" ng-click="cronapi.client('js.blockly.Maps.GerarRota2').names().run()" data-component="crn-button" xattr-size="button-medium" xattr-type="filled" id="crn-button-108774"><i class="ion ion-home light" xattr-icon-theme="light"></i> <span>Button</span></button></ion-content>
+</ion-view>

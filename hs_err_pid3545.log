@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f1e23d6ffce, pid=3545, tid=3571
+#
+# JRE version: OpenJDK Runtime Environment (11.0.15+10) (build 11.0.15+10-Ubuntu-0ubuntu0.18.04.1)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.15+10-Ubuntu-0ubuntu0.18.04.1, mixed mode, tiered, compressed oops, serial gc, linux-amd64)
+# Problematic frame:
+# J 1838 c2 jdk.internal.module.SystemModuleFinders$SystemModuleReader.findImageLocation(Ljava/lang/String;)Ljdk/internal/jimage/ImageLocation; java.base@11.0.15 (42 bytes) @ 0x00007f1e23d6ffce [0x00007f1e23d6fd80+0x000000000000024e]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/cronapp/project/core.3545)
+#
+# If you would like to submit a bug report, please visit:
+#   Unknown
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=localhost:40169,server=n,suspend=y -XX:+UseContainerSupport -XX:MaxRAMPercentage=50 -Xshare:off --add-modules=ALL-SYSTEM -Dapp.port=30002 -Dserver.port=30002 -Duser.home=/home/cronapp/project/.settings/home -Dapp.profile=DEV -Dcronos.bin=/home/cronapp/project/target -Djava.util.logging.config.file=/home/cronapp/project/target/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dignore.endorsed.dirs= -Dcatalina.home=/opt/tomcat9 -Dcatalina.base=/home/cronapp/project/target/tomcat -Duser.timezone=UTC -Djava.io.tmpdir=/home/cronapp/project/target/tomcat/temp -Dfile.encoding=UTF-8 org.apache.catalina.startup.Bootstrap start
+
+Host: 
